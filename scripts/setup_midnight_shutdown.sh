@@ -51,9 +51,6 @@ ExecStart=/usr/bin/systemctl poweroff
 TimeoutStartSec=0
 StandardOutput=journal
 StandardError=journal
-
-[Install]
-WantedBy=multi-user.target
 EOF
 
     echo "✓ Created systemd service: $service_file"
